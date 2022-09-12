@@ -24,7 +24,7 @@ def query(payload):
 	return response.json()
 
 def get_text():
-    input_text = st.text_input("ここにチャットボットへのメッセージを入力してください- \nline\ああ","", key="input")
+    input_text = st.text_input("ここにチャットボットへのメッセージを入力してください","", key="input")
     return input_text 
 
 
